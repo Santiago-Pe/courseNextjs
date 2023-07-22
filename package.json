@@ -1,31 +1,49 @@
 {
-  "name": "next-course-gentelman",
+  "name": "nextjscourse",
   "version": "0.1.0",
   "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
-    "autoprefixer": "10.4.14",
-    "next": "13.4.5",
-    "postcss": "8.4.24",
+    "@next/font": "^13.1.5",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "*",
+    "airbnb": "^0.0.2",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-module-utils": "^2.7.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "next": "^13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "sass": "^1.57.1",
+    "styled-components": "6.0.0-beta.9"
   },
   "devDependencies": {
-    "@types/node": "20.3.0",
-    "@types/react": "18.2.11",
-    "@types/react-dom": "18.2.5",
-    "eslint": "8.42.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-next": "13.4.5",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
-    "typescript": "5.1.3"
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.4"
   },
   "lint-staged": {
     "*.(ts|tsx)": [
